@@ -13,25 +13,30 @@ p {
 p.small {
   font-size: 16px;
 }
+
     .table-striped > tbody > tr{
   background-color: #ccc;
 }
     .table-hover > tbody > tr:hover{
-        background-color: #FF7F;
+        background-color: #404040;
+        color: white;
     }
 .table-hover > tbody > tr:hover{
   background-color: #98BCC;
 }
 .vertical {
-  vertical-align: center;
+  
+  float: left;
+  vertical-align: middle;
   text-align: left;
   display: table-cell;
+  background-color: #ccc;
 
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg); /* opcional: Opera agora usa -webkit */
-  transform: rotate(-90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg); /* opcional: Opera agora usa -webkit */
+  transform: rotate(90deg);
 
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
