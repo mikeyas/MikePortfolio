@@ -7,6 +7,9 @@ body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
+.form-group-white{
+  background-color: white;
+}
 p {
   font-size: 20px;
 }
