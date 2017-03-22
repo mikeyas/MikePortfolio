@@ -122,7 +122,8 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+  font-family: 'Press Start 2P', cursive;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -542,4 +543,16 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+.alinhamento{
+  text-align: center;
+  vertical-align: top;
+
+}
+
+.nav-title{
+  @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
 }
